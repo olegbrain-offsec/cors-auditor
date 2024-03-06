@@ -22,6 +22,18 @@ The idea of writing my own tool came to me during BugBounty, when I found a misc
 ```
 
 4. Run the script and observe the analysis of all web resource addresses:)
+
+### Testing
+The simplest CORS server is also attached to this tool, which you can use for debugging, it implements a number of errors:
+1. A simple reflection of Origin;
+2. Invalid subdomain parser with HTTP trust;
+3. A parser implemented within the framework of the RFC without taking into account browser support for special characters, Unicode.
+
+Just run: 
+```
+python3 CORSSERVER.py
+```
+
 ### Payload
 To customize payloads, an approach based on payload templates and its description is presented. In the pattern_base file.I have collected all possible CORS analysis options available for attack, but if your task is fuzzing testing, then you can generate your own dictionary and use it in addition to the one presented.
 
@@ -43,8 +55,19 @@ To customize payloads, an approach based on payload templates and its descriptio
 ```
 4. Запустите скрипт и наблюдайте за анализом всех адресов веб-ресурса:)
 
- ### Полезная нагрузка
- Для кастомизации полезных нагрузок представлен подход, основанный на шаблонах полезной нагрузки и ее описании. В файле pattern_base.json я собрал всевозможные доступные для атаки варианты анализа CORS, но если Ваша задача фаззинг-тестирование, то вы можете сгенерировать собственный словарь и использовать его в дополнение к представленному.
+### Тестирование
+К данному инструменту также приложен простейший CORS-сервер, который Вы можете использовать для отладки, в нем реализован ряд ошибок: 
+1. Простое отражение Origin;
+2. Некорректный парсер поддомена с доверием HTTP;
+3. Парсер, реализованный в рамках RFC без учета поддержки браузерами специальных символов, Unicode.
+
+Просто запустите: 
+```
+python3 CORSSERVER.py
+```
+
+### Полезная нагрузка
+Для кастомизации полезных нагрузок представлен подход, основанный на шаблонах полезной нагрузки и ее описании. В файле pattern_base.json я собрал всевозможные доступные для атаки варианты анализа CORS, но если Ваша задача фаззинг-тестирование, то вы можете сгенерировать собственный словарь и использовать его в дополнение к представленному.
 
 ```
 [
