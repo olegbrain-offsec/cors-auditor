@@ -1,0 +1,35 @@
+[
+    {"payload":"null","caption":"[!] Доверие null: "},
+    {"payload":"https://evil.com","caption":"[!] Доверие любому домену: "},
+    {"payload":"https://DOMAINevil.com","caption":"[!] Слияние доменов: "},
+    {"payload":"https://evil.comDOMAIN","caption":"[!] Слияние доменов: "},
+    {"payload":"https://ß.evil.com","caption":"[!] Ошибка парсинга Unicode-символов: "},
+    {"payload":"https://DOMAIN.evil.com","caption":"[!] Доверие произвольному TLD: "},
+    {"payload":"http://subdomain.DOMAIN","caption":"[!] SSL Downgrade "},
+    {"payload":"https://evil.DOMAIN","caption":"[!] Доверие поддомену: "},
+    {"payload":"https://DOMAIN!.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN=.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN&.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN'.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN(.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN).evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN*.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN,.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN;.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN=.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN^.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN`.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN{.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN|.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN}.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN~.evil.com","caption":"[!] Атака на Safari: "},
+    {"payload":"https://DOMAIN$.evil.com","caption":"[!] Атака на Safari, Firefox: "},
+    {"payload":"https://DOMAIN+.evil.com","caption":"[!] Атака на Safari, Firefox: "},
+    {"payload":"https://DOMAIN_.evil.com","caption":"[!] Атака на Safari, Chrome, Edge, Firefox, IE: "}
+]
+
+
+
+
+
+
