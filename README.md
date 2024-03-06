@@ -1,6 +1,9 @@
 # cors-auditor
 Python script for auditing CORS headers mechanism
 
+![image](https://github.com/olegbrain-offsec/cors-auditor/assets/160741328/cf078264-c2c0-4641-90f6-65ec8e35e630)
+
+
 ## In English
 ### The idea
 The idea of writing my own tool came to me during BugBounty, when I found a misconfig on an endpoint working with confidential information. To automate the search for such errors, I decided to develop a tool that is able to audit multiple points and determine the possibility of exploiting a vulnerability. The developed tool will not only detect the CORS misconfig, but also indicate whether it can be used to access the user's info. For example, trusting an arbitrary Origin with Access-Control-Allow-Credentials: true is dangerous.
